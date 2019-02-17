@@ -132,7 +132,3 @@ class NewFile(File):
                 f.write(content)
             super().__init__(path)
 
-
-file1 = File('test.txt')
-file2 = NewFile('test2.txt', 'he')
-print(file1.info())
